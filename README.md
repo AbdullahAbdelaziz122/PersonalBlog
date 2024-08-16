@@ -29,7 +29,7 @@ This project is a **Personal Blogging Platform API**, designed to handle the bac
    ```
 
 2. **Install Dependencies**:
-    - Spring Dependencies:
+   ```bash
           <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
@@ -58,7 +58,7 @@ This project is a **Personal Blogging Platform API**, designed to handle the bac
       <artifactId>lombok</artifactId>
       <optional>true</optional>
     </dependency>
-
+```
 
 3. **Set Up the Database**:
    - For MySQL:
