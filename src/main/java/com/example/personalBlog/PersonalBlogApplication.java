@@ -2,8 +2,7 @@ package com.example.personalBlog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.example.personalBlog")
 public class PersonalBlogApplication {
 
 	public static void main(String[] args) {
